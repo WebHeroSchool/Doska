@@ -1,23 +1,22 @@
 .title {
-<<<<<<< HEAD
-    font-family: Roboto;
+  font-family: Roboto;
 }
  body {
     margin: 0px;
 }
 .wrapper {
-	width: 80%;
-	margin: auto;
+  width: 80%;
+  margin: auto;
 }
 .header {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
-	position: relative;
-	padding:40px 0;
-	padding-left: 44px;
-	font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  position: relative;
+  padding:40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
 .logo__circle {
   position: absolute;
@@ -31,7 +30,7 @@
 }
 
 .logo__circle_color_blue{
-	background: #C8DBFB;
+  background: #C8DBFB;
   left: 8px;
   top: 56%;
   opacity: .7;
@@ -42,12 +41,11 @@
 }
 
 .menu {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 .menu__item {
-    padding:0 13px;
-=======
+  padding:0 13px;
   font-family: Roboto;
 }
 
@@ -56,8 +54,8 @@ body {
 }
 
 .wrapper {
-  width: 80%;
-  margin: auto;
+ width: 80%;
+ margin: auto;
 }
 
 .header {
@@ -76,7 +74,6 @@ body {
 
 .menu__item {
   padding: 0 13px;
->>>>>>> 0f9df85b7a6f85eec020eb10f8918eb8dc89236f
 }
 
 .menu__item:last-child {
