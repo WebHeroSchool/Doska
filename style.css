@@ -2,8 +2,8 @@
   font-family: Roboto;
 }
 
- body {
-    margin: 0px;
+body {
+  margin: 0;
 }
 
 .wrapper {
@@ -18,7 +18,7 @@
 
 .logo {
   position: relative;
-  padding:40px 0;
+  padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
@@ -35,54 +35,12 @@
 }
 
 .logo__circle_color_blue {
-  background: #C8DBFB;
+  background: #c8dbfb;
   left: 8px;
   top: 56%;
   opacity: .7;
 }
 
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
-
-.menu {
-  display: flex;
-  align-items: center;
-}
-
-.menu__item {
-  padding:0 13px;
-  font-family: Roboto;
-}
-
-body {
-  margin: 0;
-}
-
-.wrapper {
- width: 80%;
- margin: auto;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
-  padding: 40px 0;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-}
-
-.menu__item {
-  padding: 0 13px;
-}
-
-.menu__item:last-child {
-  padding-right: 0;
-}
-
