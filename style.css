@@ -1,40 +1,43 @@
 .title {
-<<<<<<< HEAD
     font-family: Roboto;
 }
+
  body {
     margin: 0px;
 }
+
 .wrapper {
 	width: 80%;
 	margin: auto;
 }
+
 .header {
 	display: flex;
 	justify-content: space-between;
 }
+
 .logo {
 	position: relative;
-	padding:40px 0;
+	padding: 40px 0;
 	padding-left: 44px;
-	font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+	font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
 }
+
 .logo__circle {
   position: absolute;
   width: 28px;
   height: 28px;
-  top: 0;
-  left: 0;
+  left: 0px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 50%;
 }
 
-.logo__circle_color_blue{
+.logo__circle_color_blue {
 	background: #C8DBFB;
-  left: 8px;
   top: 56%;
   opacity: .7;
+  left: 8px;
 }
 
 .logo__circle_color_dark-blue {
@@ -45,38 +48,9 @@
 	display: flex;
 	align-items: center;
 }
-.menu__item {
-    padding:0 13px;
-=======
-  font-family: Roboto;
-}
-
-body {
-  margin: 0;
-}
-
-.wrapper {
-  width: 80%;
-  margin: auto;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
-  padding: 40px 0;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-}
 
 .menu__item {
-  padding: 0 13px;
->>>>>>> 0f9df85b7a6f85eec020eb10f8918eb8dc89236f
+    padding: 0 13px;
 }
 
 .menu__item:last-child {
