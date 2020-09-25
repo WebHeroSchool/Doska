@@ -27,7 +27,7 @@
   position: absolute;
   width: 28px;
   height: 28px;
-  left: 0px;
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 50%;
@@ -52,8 +52,3 @@
 .menu__item {
     padding: 0 13px;
 }
-
-.menu__item:last-child {
-  padding-right: 0;
-}
-
