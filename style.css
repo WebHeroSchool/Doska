@@ -1,26 +1,26 @@
 .title {
-    font-family: Roboto;
+  font-family: Roboto;
 }
 
- body {
-    margin: 0px;
+body {
+  margin: 0;
 }
 
 .wrapper {
-	width: 80%;
-	margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .header {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-	position: relative;
-	padding: 40px 0;
-	padding-left: 44px;
-	font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
+  position: relative;
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .logo__circle {
@@ -34,19 +34,19 @@
 }
 
 .logo__circle_color_blue {
-	background: #C8DBFB;
+  background: #c8dbfb;
   top: 56%;
   opacity: .7;
   left: 8px;
 }
 
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
 
 .menu {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .menu__item {
