@@ -50,12 +50,12 @@ body {
 }
 
 .menu__item {
-	  position: relative;
-    margin-right: 26px;
-    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-    color: #000;
-    text-decoration: none; 
-    transition: opacity 0.7s ease-out;  
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  transition: opacity 0.7s ease-out;  
 }
 
 .menu__item:last-child {
@@ -63,7 +63,7 @@ body {
 }
 
 .menu__item:hover:after {
-	position: absolute;
+  position: absolute;
 	left: 0;
 	display: block;
 	content: "";
@@ -82,7 +82,7 @@ body {
 	height: 3px;
 	background: #0056EC;
 	bottom:-1px;  
-  transition: transform 0.4s ease-out;  
+  transition: transform 0.4s ease-out;
   transform:scaleX(0);
   opacity: 0;
 }
@@ -92,7 +92,7 @@ body {
 }
 
 .menu__item:hover:after, .menu__item:after {
-	opacity: 1;
+	opacity: 1;	
 }
 
 
