@@ -62,6 +62,11 @@ body {
   margin-right: 0;
 }
 
+.menu__item:hover::after,
+.menu__item::after {
+ opacity: 1;
+}
+
 .menu__item::after {
   position: absolute;
   left: 0;
@@ -88,10 +93,5 @@ body {
 }
 
 .menu__item:hover {
- opacity: .5;
-}
-
-.menu__item:hover::after,
-.menu__item::after {
- opacity: 1;
+  opacity: .5;
 }
