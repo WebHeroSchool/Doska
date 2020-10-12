@@ -1,5 +1,5 @@
 .title {
-  font-family: Roboto;
+  font: 700 24px/31px robotobold, arial, helvetica, sans-serif;
 }
 
 body {
@@ -52,7 +52,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/21px robotobold, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .7s ease-out;
@@ -93,5 +93,42 @@ body {
 }
 
 .menu__item:hover {
-  opacity: .5;
+  opacity: 1;
+}
+
+.main {
+	background: no-repeat url(Fotos/Backgrownd.svg);
+	background-position: bottom right;
+	background-size: 40.104vw 34.219vw;
+	padding: 9.656vw 63% 9.656vw 0;
+ }
+
+.main__title {
+	margin: 0 0 2.083vw 0;
+	font: 700 66px/87px pt_serifregular, arial, helvetica, sans-serif;
+}
+.main__text {
+	font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
+	margin:0 0 2.990vw 0;
+	width: 73%;
+}
+
+.main__button {
+	width: 14.063vw;
+	height: 2.969vw;
+	background-color: #0056ec;
+	padding: 0.938vw 0.521vw;
+	font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+	border-radius: 0.208vw;
+	transition: opacity .5s;
+	cursor: pointer;
+}
+
+.main__button:hover {
+	opacity: .5;
+}
+.main__title_hightlight {
+  background: #ecf3ff;
 }
