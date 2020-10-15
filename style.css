@@ -79,7 +79,7 @@ body {
 
 .menu__item::after,
 .menu__item:hover::after {
-  opacity: 1;
+ opacity: 1;
 }
 
 .menu__item:hover::after {
@@ -109,14 +109,9 @@ body {
 	font: 700 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 
-.main__title {
-  margin: 0 0 2.083vw 0;
-  font: 700 66px/87px pt_serifregular, arial, helvetica, sans-serif;
-}
-
 .main__text {
 	font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
-	margin:0 0 2.990vw 0;
+	margin: 0 0 2.990vw 0;
 	width: 73%;
 }
 
@@ -124,7 +119,7 @@ body {
 	width: 14.063vw;
 	height: 2.969vw;
 	background-color: #0056ec;
-	padding: 0.85vw 1.5vw;
+	padding: .85vw 1.5vw;
 	font: 500 18px/21.09px robotoregular2, arial, helvetica, sans-serif;
 	color: white;
 	text-decoration: none;
