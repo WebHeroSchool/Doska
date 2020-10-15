@@ -1,4 +1,5 @@
 @font-face {
+<<<<<<< HEAD
     font-family: 'robotoregular';
     src: url('roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -11,3 +12,17 @@
     font-weight: normal;
     font-style: normal;
 }
+=======
+  font-family: 'robotoregular';
+  src: url('roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('roboto-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+>>>>>>> 83ceee022f8c27448c2c11faff0c39dbc0045b83

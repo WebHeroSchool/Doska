@@ -108,6 +108,12 @@ body {
 	margin: 0 0 1.8vw 0;
 	font: 700 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
+
+.main__title {
+  margin: 0 0 2.083vw 0;
+  font: 700 66px/87px pt_serifregular, arial, helvetica, sans-serif;
+}
+
 .main__text {
 	font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
 	margin:0 0 2.990vw 0;
@@ -130,6 +136,7 @@ body {
 .main__button:hover {
 	opacity: .5;
 }
+
 .main__title_hightlight {
   background: #ecf3ff;
 }
