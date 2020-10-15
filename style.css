@@ -1,5 +1,5 @@
 .title {
-  font: 700 24px/31px robotobold, arial, helvetica, sans-serif;
+  font: 700 24px/31px ptserifbold, arial, helvetica, sans-serif;
 }
 
 body {
@@ -53,14 +53,14 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px robotobold, arial, helvetica, sans-serif;
+  font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .7s ease-out;
 }
 
 .menu__item:last-child {
-  margin-right: 0;
+  margin-right: 7px;
 }
 
 .menu__item::after {
@@ -98,7 +98,7 @@ body {
 }
 
 .main {
-  background: no-repeat url(Fotos/Backgrownd.svg);
+  background: no-repeat url(pic/Backgrownd.svg);
   background-position: top right;
   background-size: 40.104vw 34.219vw;
   padding: 3.6vw 61% 9.656vw 0;
@@ -106,12 +106,12 @@ body {
 
 .main__title {
   margin: 0 0 1.8vw 0;
-  font: 700 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+  font: 700 66px/87px ptserifbold, arial, helvetica, sans-serif;
 }
 
 .main__text {
   font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
-  margin: 0 0 2.99vw 0;
+  margin: 0 0 3.17vw 0;
   width: 73%;
 }
 
@@ -119,8 +119,8 @@ body {
   width: 14.063vw;
   height: 2.969vw;
   background-color: #0056ec;
-  padding: .85vw 1.5vw;
-  font: 500 18px/21.09px robotoregular2, arial, helvetica, sans-serif;
+  padding: .9vw 1.4vw;
+  font: 500 18px/21.09px robotobold, arial, helvetica, sans-serif;
   color: white;
   text-decoration: none;
   border-radius: .208vw;
