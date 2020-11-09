@@ -1,5 +1,5 @@
 .title {
-  font: 700 24px/31px ptserifbold, arial, helvetica, sans-serif;
+  font: 700 1.250vw/1.615vw ptserifbold, arial, helvetica, sans-serif;
 }
 
 body {
@@ -9,6 +9,7 @@ body {
 .wrapper {
   width: 79.5%;
   margin: auto;
+  position: relative;
 }
 
 .header {
@@ -19,15 +20,15 @@ body {
 
 .logo {
   position: relative;
-  padding: 42px 0;
-  padding-left: 45px;
-  font: bold 24px/31.8px ptserifbold, arial, helvetica, sans-serif;
+  padding: 2.188vw 0;
+  padding-left: 2.344vw;
+  font: bold 1.250vw/1.656vw ptserifbold, arial, helvetica, sans-serif;
 }
 
 .logo__circle {
   position: absolute;
-  width: 28px;
-  height: 28px;
+  width: 1.458vw;
+  height: 1.458vw;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -38,7 +39,7 @@ body {
   background: #c8dbfb;
   top: 56%;
   opacity: .7;
-  left: 8px;
+  left: 0.417vw;
 }
 
 .logo__circle_color_dark-blue {
@@ -52,15 +53,15 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
-  font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
+  margin-right: 1.354vw;
+  font: 500 0.938vw/1.094vw robotomedium, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .7s ease-out;
 }
 
 .menu__item:last-child {
-  margin-right: 7px;
+  margin-right: 0.365vw;
 }
 
 .menu__item::after {
@@ -69,9 +70,9 @@ body {
   display: block;
   content: "";
   width: 100%;
-  height: 3px;
+  height: 0.156vw;
   background: #0056ec;
-  bottom: -1px;
+  bottom: -0.052vw;
   transition: transform .4s ease-out;
   transform: scaleX(0);
   opacity: 0;
@@ -88,7 +89,7 @@ body {
   display: block;
   content: "";
   width: 100%;
-  height: 3px;
+  height: 0.156vw;
   background: #0056ec;
   transform: scaleX(1);
 }
@@ -106,12 +107,12 @@ body {
 
 .main__title {
   margin: 0 0 1.8vw 0;
-  font: 700 66px/87px ptserifbold, arial, helvetica, sans-serif;
+  font: 700 3.438vw/4.531vw ptserifbold, arial, helvetica, sans-serif;
 }
 
 .main__text {
-  font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
-  margin: 0 0 3.17vw 0;
+  font: 400 1.146vw/1.354vw robotoregular, arial, helvetica, sans-serif;
+  margin: 0 0 3.4vw 0;
   width: 73%;
 }
 
@@ -120,7 +121,7 @@ body {
   height: 2.969vw;
   background-color: #0056ec;
   padding: .9vw 1.4vw;
-  font: 500 18px/21.09px robotobold, arial, helvetica, sans-serif;
+  font: 500 0.938vw/1.098vw robotobold, arial, helvetica, sans-serif;
   color: white;
   text-decoration: none;
   border-radius: .208vw;
@@ -134,4 +135,316 @@ body {
 
 .main__title_hightlight {
   background: #ecf3ff;
+}
+
+.mobile-nav {
+    z-index: 9999999;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+  .mobile-nav__btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9.867vw;
+    height: 10.133vw;
+    cursor: pointer;
+    transition: .4s;
+    z-index: 9999;
+  }
+
+  .mobile-nav__icon {
+    display: block;
+    position: relative;
+    background-color:#0056ec;
+    width: 6.667vw;
+    height: 0.800vw;
+    transition: .4s;
+}
+
+  .mobile-nav__icon::after,
+  .mobile-nav__icon::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background:#0056ec;
+    width: 6.667vw;
+    height: 0.800vw;
+    transition: .4s;
+  }
+
+  .mobile-nav__icon::after {
+    top: 1.867vw;
+  }
+
+  .mobile-nav__icon::before {
+    top: -1.867vw;
+  }
+
+  .mobile-nav__container {
+    position: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 6.400vw;
+    left: 0;
+    z-index: 999;
+    height: 0;
+    opacity: 1;
+    transition: .5s;
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .mobile-nav__list {
+    transition: .5s;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .mobile-nav__item {
+    padding: 3.467vw;
+  }
+
+  .mobile-nav__link {
+    text-decoration: none;
+    color: #000;
+    font: 500 8vw/9.333vw robotoregular, arial, helvetica, sans-serif;
+    font-weight: bold;
+    transition: color 1.5s ease-out;
+  }
+
+  .mobile-nav__link:hover {
+    color: #f74242;
+  }
+
+  .mobile-nav__checkbox {
+    display: none;
+  }
+
+  .mobile-nav__checkbox:checked~.mobile-nav__nav {
+    opacity: 1;
+  }
+  
+  .mobile-nav__checkbox:checked~.mobile-nav__container {
+    height: 100%;
+  }
+  
+  .mobile-nav__checkbox:checked~.mobile-nav__btn {
+    margin-right: 50px;
+  }
+  
+  .mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon {
+    background: transparent;
+  }
+  
+  .mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::before,
+  .mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::after {
+    top: 0;
+  }
+  
+  .mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::after {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    background-color: #172f27;
+  }
+  
+  .mobile-nav__checkbox:checked~.mobile-nav__btn .mobile-nav__icon::before {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    background-color: #172f27;
+  }
+
+  @media (min-width: 601px) and (max-width: 2000px) {
+    .mobile-nav {
+      display: none;
+    }
+  }
+
+@media (min-width: 200px) and (max-width: 600px) {
+   
+  .wrapper {
+    width: 90.5%;
+    margin: auto;
+    position: relative;
+  }
+
+  .menu {
+    display: none;
+  }
+
+	.header {
+		margin-bottom: 1.333vw;
+		height: 21.5vw;
+	}
+
+	.logo {
+		color: transparent;
+	}
+	.logo__circle {
+    position: absolute;
+    width: 7.458vw;
+    height: 7.458vw;
+    left: 1.7vw;
+    top: 47%;
+  }
+
+  .logo__circle_color_blue {
+    top: 56%;
+    left: 3.8vw;
+  }
+
+	.main {
+		padding: 77% 0 0;
+    background-size: 83%;
+    background-position: top center;
+    text-align: center;
+	}
+
+	.main__title {
+    margin-bottom: 9vw;
+    font: bold 8.1vw/10.6vw ptserifbold, arial, helvetica, sans-serif;
+  }
+
+  .main__text {
+    font: 500 4.267vw/5vw robotobold, arial, helvetica, sans-serif;
+    width: 75%;
+    margin: auto auto 11vw auto;
+  }
+
+  .main__button {
+    font: 500 3.733vw/4.376vw robotobold, arial, helvetica, sans-serif;
+    padding: 3.4vw 5.5vw;
+    border-radius: 1.208vw;
+ }
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+	.header{
+		margin-bottom: 7.8vw;
+	}
+
+	.wrapper {
+    width: 91%;
+  }
+
+  .logo {
+  padding: 4.1vw 0;
+  padding-left: 4vw;
+  font: bold 2.344vw/3.105vw ptserifbold, arial, helvetica, sans-serif;
+  }
+
+  .menu__item {
+  margin-right: 2.6vw;
+  font: 500 1.367vw/1.603vw robotomedium, arial, helvetica, sans-serif;
+  }
+
+  .menu__item:last-child {
+  margin-right: 0;
+  }
+
+  .logo__circle {
+    width: 2.734vw;
+    height: 2.734vw;
+    left: 0;
+    top: 47%;
+  }
+
+  .logo__circle_color_blue {
+  top: 53%;
+  left: .9vw;
+  }
+
+  .main__title {
+    margin-bottom: 3.8vw;
+    font: bold 4.883vw/6.470vw ptserifbold, arial, helvetica, sans-serif;
+    width: 42%;
+  }
+
+  .main__text {
+    font: 500 1.758vw/2.060vw robotoregular, arial, helvetica, sans-serif;
+    width: 37%;
+    margin: 0 0 5.38vw 0;
+  }
+
+  .main__button {
+    font: 500 1.367vw/1.603vw robotobold, arial, helvetica, sans-serif;
+    padding: 1.2vw 1.99vw;
+    border-radius: 0.4vw;
+  }  
+
+   .main {
+		padding: 1.7% 0 3% 0;
+    background-size: 55.6%;
+	 }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+
+	.header{
+		margin-bottom: 5.9vw;
+	}
+
+	.wrapper {
+    width: 67.9%;
+  }
+
+  .logo {
+  padding: 2.9vw 0;
+  padding-left: 3vw;
+  font: bold 1.757vw/2.694vw ptserifbold, arial, helvetica, sans-serif;
+  }
+
+  .menu__item {
+  margin-right: 1.99vw;
+  font: 500 1.025vw/1.201vw robotomedium, arial, helvetica, sans-serif;
+  }
+
+  .menu__item:last-child {
+  margin-right: 0;
+  }
+
+  .logo__circle {
+    width: 2.050vw;
+    height: 2.050vw;
+    left:-.2vw;
+    top: 47%;
+  }
+
+  .logo__circle_color_blue {
+  top: 53%;
+  left: 0.586vw;
+  }
+
+  .main__title {
+    margin-bottom: 2.9vw;
+    font: bold 3.660vw/4.850vw ptserifbold, arial, helvetica, sans-serif;
+    width: 42%;
+  }
+
+  .main__text {
+    font: 500 1.318vw/1.544vw robotoregular, arial, helvetica, sans-serif;
+    width: 37%;
+    margin: 0 0 3.99vw 0;
+  }
+
+  .main__button {
+    font: 500 1.025vw/1.201vw robotobold, arial, helvetica, sans-serif;
+    padding: .9vw 1.5vw;
+    border-radius: 0.3vw;
+  }  
+
+   .main {
+		padding: 1.6% 0 3% 0;
+    background-size: 55.6%;
+	 }
 }
