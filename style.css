@@ -262,7 +262,7 @@ body {
   background-color: #172f27;
 }
 
-@media (min-width: 601px) and (max-width: 2000px) {
+@media (min-width: 601px) and (max-width: 2080px) {
   .mobile-nav {
     display: none;
   }
@@ -382,7 +382,7 @@ body {
   }  
 
    .main {
-		padding: 1.7% 0 3% 0;
+		padding: 1.7% 0 10% 0;
     background-size: 55.6%;
 	 }
 }
@@ -443,7 +443,7 @@ body {
   }  
 
    .main {
-		padding: 1.6% 0 3% 0;
+		padding: 1.6% 0 10% 0;
     background-size: 55.6%;
 	 }
 }
