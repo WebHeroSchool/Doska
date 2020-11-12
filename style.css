@@ -249,7 +249,7 @@ body {
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   top: 0;
 }
-  
+
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
