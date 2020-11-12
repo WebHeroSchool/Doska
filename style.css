@@ -255,6 +255,7 @@ body {
   -webkit-transform: rotate(-45deg);
   background-color: #172f27;
 }
+
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -272,7 +273,7 @@ body {
     width: 90.5%;
     margin: auto;
     position: relative;
-}
+  }
 
   .menu {
     display: none;
@@ -327,7 +328,7 @@ body {
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
-  .header     {
+  .header {
     margin-bottom: 7.8vw;
 	}
 
