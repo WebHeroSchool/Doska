@@ -240,10 +240,11 @@ body {
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn {
   margin-right: 50px;
 }
+
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon {
   background: transparent;
 }
-  
+
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before,
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   top: 0;
@@ -327,7 +328,6 @@ body {
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
-
   .header {
     margin-bottom: 7.8vw;
 	}
@@ -389,7 +389,7 @@ body {
 
 @media (min-width: 1025px) and (max-width: 1366px) {
 
-    .header {
+  .header {
     margin-bottom: 5.9vw;
 	}
 
