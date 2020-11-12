@@ -170,9 +170,9 @@ body {
   content: "";
   display: block;
   position: absolute;
-  background:#0056ec;
+  background: #0056ec;
   width: 6.667vw;
-  height: .800vw;
+  height: .8vw;
   transition: .4s;
 }
 
@@ -223,40 +223,40 @@ body {
 
 .mobile-nav__link:hover {
   color: #f74242;
-  }
+}
 
 .mobile-nav__checkbox {
   display: none;
 }
 
-.mobile-nav__checkbox:checked~ .mobile-nav__nav {
+.mobile-nav__checkbox:checked ~ .mobile-nav__nav {
   opacity: 1;
 }
 
-.mobile-nav__checkbox:checked~ .mobile-nav__container {
+.mobile-nav__checkbox:checked ~ .mobile-nav__container {
   height: 100%;
 }
   
-.mobile-nav__checkbox:checked~ .mobile-nav__btn {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn {
   margin-right: 50px;
 }
   
-.mobile-nav__checkbox:checked~ .mobile-nav__btn .mobile-nav__icon {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon {
   background: transparent;
 }
   
-.mobile-nav__checkbox:checked~ .mobile-nav__btn .mobile-nav__icon::before,
-.mobile-nav__checkbox:checked~ .mobile-nav__btn .mobile-nav__icon::after {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before,
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   top: 0;
 }
   
-.mobile-nav__checkbox:checked~ .mobile-nav__btn .mobile-nav__icon::after {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::after {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   background-color: #172f27;
 }
   
-.mobile-nav__checkbox:checked~ .mobile-nav__btn .mobile-nav__icon::before {
+.mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon::before {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   background-color: #172f27;
@@ -270,18 +270,18 @@ body {
 
 @media (min-width: 200px) and (max-width: 600px) {
   .wrapper {
-     width: 90.5%;
-     margin: auto;
-     position: relative;
+    width: 90.5%;
+    margin: auto;
+    position: relative;
 }
 
-	 .menu {
-      display: none;
+  .menu {
+    display: none;
 }
 
   .header {
-     margin-bottom: 1.333vw;
-     height: 21.5vw;
+		margin-bottom: 1.333vw;
+    height: 21.5vw;
 }
 	
   .logo {
@@ -328,27 +328,27 @@ body {
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
-	.header{
-		margin-bottom: 7.8vw;
+  .header {
+    margin-bottom: 7.8vw;
 	}
 
-	.wrapper {
+  .wrapper {
     width: 91%;
   }
 
   .logo {
-  padding: 4.1vw 0;
-  padding-left: 4vw;
-  font: bold 2.344vw/3.105vw ptserifbold, arial, helvetica, sans-serif;
+    padding: 4.1vw 0;
+    padding-left: 4vw;
+    font: bold 2.344vw/3.105vw ptserifbold, arial, helvetica, sans-serif;
   }
 
   .menu__item {
-  margin-right: 2.6vw;
-  font: 500 1.367vw/1.603vw robotomedium, arial, helvetica, sans-serif;
+    margin-right: 2.6vw;
+    font: 500 1.367vw/1.603vw robotomedium, arial, helvetica, sans-serif;
   }
 
   .menu__item:last-child {
-  margin-right: 0;
+    margin-right: 0;
   }
 
   .logo__circle {
@@ -365,12 +365,12 @@ body {
 
   .main__title {
     margin-bottom: 3.8vw;
-    font: bold 4.883vw/6.470vw ptserifbold, arial, helvetica, sans-serif;
+    font: bold 4.883vw/6.47vw ptserifbold, arial, helvetica, sans-serif;
     width: 42%;
   }
 
   .main__text {
-    font: 500 1.758vw/2.060vw robotoregular, arial, helvetica, sans-serif;
+    font: 500 1.758vw/2.06vw robotoregular, arial, helvetica, sans-serif;
     width: 37%;
     margin: 0 0 5.38vw 0;
   }
@@ -379,10 +379,10 @@ body {
     font: 500 1.367vw/1.603vw robotobold, arial, helvetica, sans-serif;
     padding: 1.2vw 1.99vw;
     border-radius: 0.4vw;
-  }  
+	}
 
-   .main {
-		padding: 1.7% 0 10% 0;
+  .main {
+    padding: 1.7% 0 10% 0;
     background-size: 55.6%;
 	 }
 }
@@ -390,7 +390,7 @@ body {
 @media (min-width: 1025px) and (max-width: 1366px) {
 
 	.header{
-		margin-bottom: 5.9vw;
+    margin-bottom: 5.9vw;
 	}
 
 	.wrapper {
@@ -398,35 +398,35 @@ body {
   }
 
   .logo {
-  padding: 2.9vw 0;
-  padding-left: 3vw;
-  font: bold 1.757vw/2.694vw ptserifbold, arial, helvetica, sans-serif;
+    padding: 2.9vw 0;
+    padding-left: 3vw;
+    font: bold 1.757vw/2.694vw ptserifbold, arial, helvetica, sans-serif;
   }
 
   .menu__item {
-  margin-right: 1.99vw;
-  font: 500 1.025vw/1.201vw robotomedium, arial, helvetica, sans-serif;
+    margin-right: 1.99vw;
+    font: 500 1.025vw/1.201vw robotomedium, arial, helvetica, sans-serif;
   }
 
   .menu__item:last-child {
-  margin-right: 0;
+    margin-right: 0;
   }
 
   .logo__circle {
-    width: 2.050vw;
-    height: 2.050vw;
+    width: 2.05vw;
+    height: 2.05vw;
     left:-.2vw;
     top: 47%;
   }
 
   .logo__circle_color_blue {
-  top: 53%;
-  left: 0.586vw;
+    top: 53%;
+    left: 0.586vw;
   }
 
   .main__title {
     margin-bottom: 2.9vw;
-    font: bold 3.660vw/4.850vw ptserifbold, arial, helvetica, sans-serif;
+    font: bold 3.660vw/4.85vw ptserifbold, arial, helvetica, sans-serif;
     width: 42%;
   }
 
