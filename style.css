@@ -276,17 +276,17 @@ body {
   }
 
   .menu {
-    display: none;}
+    display: none;
+}
 
   .header {
     margin-bottom: 1.333vw;
-    height: 21.5vw;
-}
+    height: 21.5vw;}
 
   .logo {
     color: transparent;
 }
-	
+
   .logo__circle {
     position: absolute;
     width: 7.458vw;
