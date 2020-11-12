@@ -236,7 +236,7 @@ body {
 .mobile-nav__checkbox:checked ~ .mobile-nav__container {
   height: 100%;
 }
-  
+
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn {
   margin-right: 50px;
 }
@@ -280,7 +280,7 @@ body {
 }
 
   .header {
-		margin-bottom: 1.333vw;
+    margin-bottom: 1.333vw;
     height: 21.5vw;
 }
 	
@@ -359,8 +359,8 @@ body {
   }
 
   .logo__circle_color_blue {
-  top: 53%;
-  left: .9vw;
+    top: 53%;
+    left: .9vw;
   }
 
   .main__title {
@@ -378,7 +378,7 @@ body {
   .main__button {
     font: 500 1.367vw/1.603vw robotobold, arial, helvetica, sans-serif;
     padding: 1.2vw 1.99vw;
-    border-radius: 0.4vw;
+    border-radius: .4vw;
 	}
 
   .main {
@@ -389,11 +389,11 @@ body {
 
 @media (min-width: 1025px) and (max-width: 1366px) {
 
-	.header{
+    .header {
     margin-bottom: 5.9vw;
 	}
 
-	.wrapper {
+  .wrapper {
     width: 67.9%;
   }
 
@@ -415,18 +415,18 @@ body {
   .logo__circle {
     width: 2.05vw;
     height: 2.05vw;
-    left:-.2vw;
+    left: -.2vw;
     top: 47%;
   }
 
   .logo__circle_color_blue {
     top: 53%;
-    left: 0.586vw;
+    left: .586vw;
   }
 
   .main__title {
     margin-bottom: 2.9vw;
-    font: bold 3.660vw/4.85vw ptserifbold, arial, helvetica, sans-serif;
+    font: bold 3.66vw/4.85vw ptserifbold, arial, helvetica, sans-serif;
     width: 42%;
   }
 
@@ -439,11 +439,11 @@ body {
   .main__button {
     font: 500 1.025vw/1.201vw robotobold, arial, helvetica, sans-serif;
     padding: .9vw 1.5vw;
-    border-radius: 0.3vw;
-  }  
-
-   .main {
-		padding: 1.6% 0 10% 0;
-    background-size: 55.6%;
-	 }
+    border-radius: .3vw;
+  }
+  
+  .main {
+  padding: 1.6% 0 10% 0;
+  background-size: 55.6%;
+}
 }
