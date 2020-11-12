@@ -240,7 +240,6 @@ body {
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn {
   margin-right: 50px;
 }
-  
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon {
   background: transparent;
 }
@@ -327,6 +326,7 @@ body {
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
+
 
   .header {
     margin-bottom: 7.8vw;
@@ -443,7 +443,7 @@ body {
   }
   
   .main {
-  padding: 1.6% 0 10% 0;
-  background-size: 55.6%;
+    padding: 1.6% 0 10% 0;
+    background-size: 55.6%;
 }
 }
