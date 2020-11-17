@@ -277,11 +277,12 @@ body {
 
   .menu {
     display: none;
-}
+  }
 
   .header {
     margin-bottom: 1.333vw;
-    height: 21.5vw;}
+    height: 21.5vw;
+  }
 
   .logo {
     color: transparent;
@@ -299,7 +300,7 @@ body {
     top: 56%;
     left: 3.8vw;
 }
-	
+
   .main {
     padding: 77% 0 0;
     background-size: 83%;
