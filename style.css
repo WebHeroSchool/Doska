@@ -323,10 +323,9 @@ body {
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
-
   .header {
     margin-bottom: 7.8vw;
-	}
+  }
 
   .wrapper {
     width: 91%;
@@ -375,19 +374,19 @@ body {
     font: 500 1.367vw/1.603vw robotobold, arial, helvetica, sans-serif;
     padding: 1.2vw 1.99vw;
     border-radius: .4vw;
-	}
+  }
 
   .main {
     padding: 1.7% 0 10% 0;
     background-size: 55.6%;
-	 }
+   }
 }
 
 @media (min-width: 1025px) and (max-width: 1366px) {
 
   .header {
     margin-bottom: 5.9vw;
-	}
+  }
 
   .wrapper {
     width: 67.9%;
