@@ -273,17 +273,17 @@ body {
 
   .menu {
     display: none;
-}
+  }
 
   .header {
     margin-bottom: 1.333vw;
     height: 21.5vw;
-}
-	
+  }
+
   .logo {
     color: transparent;
 }
-	
+
   .logo__circle {
     position: absolute;
     width: 7.458vw;
@@ -296,7 +296,7 @@ body {
     top: 56%;
     left: 3.8vw;
 }
-	
+
   .main {
     padding: 77% 0 0;
     background-size: 83%;
@@ -308,7 +308,7 @@ body {
     margin-bottom: 9vw;
     font: bold 8.1vw/10.6vw ptserifbold, arial, helvetica, sans-serif;
 }
-	
+
   .main__text {
     font: 500 4.267vw/5vw robotobold, arial, helvetica, sans-serif;
     width: 75%;
@@ -324,7 +324,7 @@ body {
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
-  .header{
+  .header {
     margin-bottom: 7.8vw;
 	}
 
