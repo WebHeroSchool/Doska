@@ -198,7 +198,7 @@ body {
   transition: .5s;
   overflow: hidden;
   background-color: #fff;
-  width: 100%;
+  width: 88%;
 }
 
 .mobile-nav__list {
@@ -234,11 +234,7 @@ body {
 }
 
 .mobile-nav__checkbox:checked ~ .mobile-nav__container {
-  height: 100%;
-}
-
-.mobile-nav__checkbox:checked ~ .mobile-nav__btn {
-  margin-right: 50px;
+  height: 78.5%;
 }
 
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon {
