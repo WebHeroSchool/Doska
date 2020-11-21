@@ -282,7 +282,7 @@ body {
 
   .logo {
     color: transparent;
-}
+  }
 
   .logo__circle {
     position: absolute;
@@ -290,36 +290,36 @@ body {
     height: 7.458vw;
     left: 1.7vw;
     top: 47%;
-}
+  }
 
   .logo__circle_color_blue {
     top: 56%;
     left: 3.8vw;
-}
+  }
 
   .main {
     padding: 77% 0 0;
     background-size: 83%;
     background-position: top center;
     text-align: center;
-}
+  }
 
   .main__title {
     margin-bottom: 9vw;
     font: bold 8.1vw/10.6vw ptserifbold, arial, helvetica, sans-serif;
-}
+  }
 
   .main__text {
     font: 500 4.267vw/5vw robotobold, arial, helvetica, sans-serif;
     width: 75%;
     margin: auto auto 11vw auto;
-}
+  }
 	
   .main__button {
     font: 500 3.733vw/4.376vw robotobold, arial, helvetica, sans-serif;
     padding: 3.4vw 5.5vw;
     border-radius: 1.208vw;
-}
+  }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -440,5 +440,5 @@ body {
   .main {
     padding: 1.6% 0 10% 0;
     background-size: 55.6%;
-}
+  }
 }
