@@ -23,6 +23,17 @@ body {
   padding: 2.188vw 0;
   padding-left: 2.344vw;
   font: bold 1.25vw/1.656vw ptserifbold, arial, helvetica, sans-serif;
+  animation: menu 3s linear normal;
+}
+
+@keyframes menu {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .logo__circle {
@@ -49,6 +60,17 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  animation: menu 3s linear normal;
+}
+
+@keyframes menu {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .menu__item {
@@ -103,17 +125,54 @@ body {
   background-position: top right;
   background-size: 40.104vw 34.219vw;
   padding: 3.6vw 61% 9.656vw 0;
+  animation: main 3s ease normal;
+}
+
+@keyframes main {
+  from {
+    opacity: 0;
+    background-position: top left;
+  }
+
+  to {
+    opacity: 1;
+    background-position: top right;
+  }
 }
 
 .main__title {
   margin: 0 0 1.8vw 0;
   font: 700 3.438vw/4.531vw ptserifbold, arial, helvetica, sans-serif;
+  animation: anim 2s linear normal;
+}
+
+@keyframes anim {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .main__text {
   font: 400 1.146vw/1.354vw robotoregular, arial, helvetica, sans-serif;
   margin: 0 0 3.4vw 0;
   width: 73%;
+  animation: frog 2s linear normal 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes frog {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .main__button {
@@ -127,6 +186,19 @@ body {
   border-radius: .208vw;
   transition: opacity .5s;
   cursor: pointer;
+  animation: frogf 2s linear normal 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes frogf {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .main__button:hover {
@@ -234,7 +306,7 @@ body {
 }
 
 .mobile-nav__checkbox:checked ~ .mobile-nav__container {
-  height: 78.5%;
+  height: 100%;
 }
 
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon {
@@ -319,6 +391,10 @@ body {
     font: 500 3.733vw/4.376vw robotobold, arial, helvetica, sans-serif;
     padding: 3.4vw 5.5vw;
     border-radius: 1.208vw;
+  }
+
+  .mobile-nav__list {
+    margin: 0 0 45.067vw;
   }
 }
 
