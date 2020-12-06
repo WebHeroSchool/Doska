@@ -308,7 +308,7 @@ body {
 }
 
 .mobile-nav__checkbox:checked ~ .mobile-nav__container {
-  height: 78.5%;
+  height: 100%;
 }
 
 .mobile-nav__checkbox:checked ~ .mobile-nav__btn .mobile-nav__icon {
@@ -393,6 +393,10 @@ body {
     font: 500 3.733vw/4.376vw robotobold, arial, helvetica, sans-serif;
     padding: 3.4vw 5.5vw;
     border-radius: 1.208vw;
+  }
+
+  .mobile-nav__list {
+    margin: 0 0 45.067vw;
   }
 }
 
